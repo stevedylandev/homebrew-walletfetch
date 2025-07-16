@@ -1,20 +1,20 @@
 class Walletfetch < Formula
   desc "Like Neofetch, but for your wallet"
   homepage "https://github.com/stevedylandev/walletfetch"
-  version "0.0.13"
+  version "0.0.14"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.13/walletfetch-aarch64-apple-darwin.tar.xz"
-      sha256 "7493520ff5624efdb0c9c85a745d2938b3de7b43068974c6fc955b4186f60075"
+      url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.14/walletfetch-aarch64-apple-darwin.tar.xz"
+      sha256 "d3878da0fb3b61d5eb529b98e5ac738b414e65acef44b0cdc2681735b3fcda35"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.13/walletfetch-x86_64-apple-darwin.tar.xz"
-      sha256 "7d3b13d18caf5c727cf37926d26cefea9302ff5919f4242f043d872d146f125b"
+      url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.14/walletfetch-x86_64-apple-darwin.tar.xz"
+      sha256 "b2315b8d691d083d4a6c3b464f0b732992f59d15b7f9561e6ebf319de35ce0ab"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.13/walletfetch-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "b92c6d5b948d7f57fcfe8beecd98273e8bc04689ddf55d1f3805cc40d9fac674"
+    url "https://github.com/stevedylandev/walletfetch/releases/download/v0.0.14/walletfetch-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "cf5f29243b02ade8fb4088234d61ccf6c1b29bbdd3cf8a5d9a0986f1bafe33be"
   end
   license "MIT"
 
